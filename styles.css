@@ -1,6 +1,8 @@
 * {
     padding:0%;
     margin:0%;
+
+    
 }
 
 body {
@@ -54,18 +56,27 @@ h1 {
 .first-section-content {
 display: flex;
 flex-direction: row;
+margin: 50px;
 }
 
-.content-left, .content-right {
+.content-right {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   justify-content: center;
+   align-items: center;
+}
+
+img {
+margin: 50%;
 }
 
 
-
-.sign-button {
-    background-color: #3882f6 ;
-    color:#E5E7EB
-}
