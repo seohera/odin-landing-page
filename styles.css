@@ -1,65 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 * {
-    padding:0%;
-    margin:0%;
-
-    
+    margin: 0;
+    padding: 0;
 }
 
-body {
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+body{
+    font-family: 'Roboto Slab', serif;
 }
 
-.first-section {
+.first-section{
     background-color: #1F2937;
 }
-#header-logo {
+
+#header-logo{
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
-.header-link {
+.header-link{
     font-size: 18px;
     color: #E5E7EB;
     margin: 10px;
 }
 
-.navbar {
+.navbar{
     display: flex;
     flex-direction: row;
 }
 
-ul {
+ul{
     display: flex;
     flex-direction: row;
 }
 
-.navbar_left {
+.navbar-left,.navbar-right{
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
 }
 
-.navbar_right {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
+h1{
     font-size: 48px;
-    font-weight: bolder; 
-    color: #f9faf8;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
-.first-section-content {
-display: flex;
-flex-direction: row;
-margin: 50px;
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
 }
 
-.content-right {
+.content-right{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,16 +61,29 @@ margin: 50px;
     width: 50%;
 }
 
-.content-left {
+.content-left{
     display: flex;
     flex-direction: column;
     width: 50%;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    margin-left: 150px;
 }
 
-img {
-margin: 50%;
+img{
+    margin-bottom: 50px;
 }
 
+.p-first{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-first-section{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px #3882F6;
+    border-radius: 10px;
+}
 
